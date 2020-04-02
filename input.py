@@ -1,6 +1,5 @@
 from sudoku import sudoku
 from time import time
-from sys import argv
 
 def read():
     grid = []
