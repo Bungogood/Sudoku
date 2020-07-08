@@ -16,6 +16,7 @@ if __name__ == "__main__":
     s.grid = load(argv[1])
     start = time()
     solved = s.solve()
+    end = time()
     print(s)
     print("solved: {}".format(solved))
-    print("time: {}".format(time()-start))
+    print("time: {}".format(end-start))
